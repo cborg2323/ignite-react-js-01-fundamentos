@@ -7,3 +7,6 @@ Nesse módulo, criaremos uma aplicação **React** utilizando o **Vite** e apren
 - imutabilidade e 
 - hooks, além de 
 - aplicar o **TypeScript** no nosso projeto para adicionar tipagem estática à aplicação.
+
+## Figma
+https://www.figma.com/community/file/1113573231685349036
