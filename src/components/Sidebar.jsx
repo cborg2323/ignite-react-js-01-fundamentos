@@ -1,6 +1,7 @@
 import { PencilLine } from 'phosphor-react';
 
 import styles from './Sidebar.module.css';
+import { Avatar } from './Avatar';
 
 export function Sidebar() {
     return (
@@ -12,9 +13,8 @@ export function Sidebar() {
             />
 
             <div className={styles.profile}>
-                <img className={styles.avatar}
-                    src="https://images.unsplash.com/photo-1606663889134-b1dedb5ed8b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FydG9vbiUyMGNoYXJhY3RlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" 
-                    alt="Imagem de perfil" 
+                <Avatar 
+                    src="https://images.unsplash.com/photo-1606663889134-b1dedb5ed8b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FydG9vbiUyMGNoYXJhY3RlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
                 />
 
                 <strong>Clóvis Nunes</strong>
